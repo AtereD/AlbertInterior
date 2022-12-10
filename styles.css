@@ -1,13 +1,14 @@
 body {
     background-color:#18181e;
     color:#ffffff;
-    margin-bottom:0 0 10px 0;   
+    margin:0;   
     font-family:Georgia, 'Times New Roman', Times, serif;
     line-height:2;
 }
 
 .title {
     background-color: #dec79b;
+    color:#18181e;
     display:flex;
     flex-direction:column;
     text-align: center;
@@ -46,7 +47,6 @@ h1 {
 }
 
 
-
 .btn {
     color: #18181e;
     font-size: 19px;
@@ -59,4 +59,21 @@ h1 {
     background: #dec79b;
     background-image: linear-gradient(to bottom, #dec79b, #735826);
     
+  }
+  footer {
+    margin:40px 0 0 0;
+    text-align: center;
+    background-color: #dec79b;
+    border-top-left-radius:30% ;
+    color:#18181e;
+  }
+  .flex {
+    padding:10px;
+    text-align: center;
+    display: flex;
+    justify-items: flex-end;
+    justify-content: space-around;
+  }
+  a{
+    margin:5px;
   }
